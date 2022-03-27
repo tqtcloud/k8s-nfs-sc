@@ -60,6 +60,8 @@ rules:
     resources: ["podsecuritypolicies"]
     resourceNames: ["nfs-provisioner"]
     verbs: ["use"]
+
+    
 ---
 kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
